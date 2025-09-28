@@ -14,7 +14,7 @@ const Chatbot = () => {
   const [messages, setMessages] = useState<Message[]>([
     {
       id: '1',
-      text: "Hello! I'm your TimeVault assistant. How can I help you find the perfect watch today?",
+      text: "Hello! I'm your Skouce assistant. How can I help you find the perfect watch today?",
       sender: 'bot',
       timestamp: new Date()
     }
@@ -59,7 +59,7 @@ const Chatbot = () => {
     }
     
     if (lowerMessage.includes('hello') || lowerMessage.includes('hi')) {
-      return "Hello! Welcome to TimeVault. I'm here to help you discover the perfect timepiece. Are you looking for something specific today?";
+      return "Hello! Welcome to Skouce. I'm here to help you discover the perfect timepiece. Are you looking for something specific today?";
     }
     
     if (lowerMessage.includes('thank')) {
@@ -70,7 +70,7 @@ const Chatbot = () => {
     const defaultResponses = [
       "That's a great question! Let me help you with that. Could you provide more details about what you're looking for?",
       "I'd be happy to assist you with that. Are you interested in a particular style or brand of watch?",
-      "Thank you for your interest in TimeVault. Would you like me to connect you with one of our watch specialists for personalized assistance?",
+      "Thank you for your interest in Skouce. Would you like me to connect you with one of our watch specialists for personalized assistance?",
       "I can help you find the perfect watch. What's your budget range and preferred style?",
       "Our collection includes luxury, sport, classic, and smart watches. Which category interests you most?"
     ];
@@ -141,7 +141,7 @@ const Chatbot = () => {
             <Bot className="h-5 w-5" />
           </div>
           <div>
-            <h3 className="font-semibold text-sm">TimeVault Assistant</h3>
+            <h3 className="font-semibold text-sm">Skouce Assistant</h3>
             <p className="text-xs opacity-90">Online now</p>
           </div>
         </div>

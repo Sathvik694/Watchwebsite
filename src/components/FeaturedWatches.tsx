@@ -5,7 +5,7 @@ const watches = [
   {
     id: 1,
     name: "Royal Heritage",
-    brand: "TimeVault",
+    brand: "Skouce",
     price: 249999,
     originalPrice: 299999,
     rating: 4.9,

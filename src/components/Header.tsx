@@ -10,7 +10,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16">
           {/* Logo */}
           <div className="flex items-center">
-            <h1 className="text-2xl font-bold text-violet-400">TimeVault</h1>
+            <h1 className="text-2xl font-bold text-violet-400">Skouce</h1>
           </div>
 
           {/* Desktop Navigation */}

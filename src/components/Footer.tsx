@@ -39,7 +39,7 @@ const Footer = () => {
           <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
             {/* Company Info */}
             <div className="space-y-4">
-              <h3 className="text-2xl font-bold text-violet-400">TimeVault</h3>
+              <h3 className="text-2xl font-bold text-violet-400">Skouce</h3>
               <p className="text-gray-400 text-sm leading-relaxed">
                 Your premier destination for luxury timepieces. We curate the finest watches from renowned brands worldwide, ensuring authenticity and excellence in every piece.
               </p>
@@ -99,7 +99,7 @@ const Footer = () => {
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="h-4 w-4 text-violet-400" />
-                  <span className="text-gray-400">support@timevault.com</span>
+                  <span className="text-gray-400">support@skouce.com</span>
                 </div>
               </div>
               <div className="pt-2">
@@ -117,7 +117,7 @@ const Footer = () => {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center gap-4">
             <p className="text-sm text-gray-400">
-              © 2025 TimeVault. All rights reserved.
+              © 2025 Skouce. All rights reserved.
             </p>
             <div className="flex items-center gap-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-violet-400 transition-colors">Privacy Policy</a>
