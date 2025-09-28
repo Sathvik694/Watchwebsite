@@ -5,6 +5,7 @@ import FeaturedWatches from './components/FeaturedWatches';
 import Categories from './components/Categories';
 import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
+import Chatbot from './components/Chatbot';
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
         <Newsletter />
       </main>
       <Footer />
+      <Chatbot />
     </div>
   );
 }
