@@ -56,7 +56,7 @@ const Hero = () => {
               />
             </div>
             <div className="absolute -bottom-6 -right-6 bg-violet-600 text-white p-4 rounded-xl shadow-lg">
-              <p className="font-bold text-lg">$2,999</p>
+              <p className="font-bold text-lg">₹2,49,999</p>
               <p className="text-sm opacity-90">Limited Edition</p>
             </div>
           </div>

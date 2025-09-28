@@ -19,7 +19,7 @@ const Footer = () => {
               <Truck className="h-8 w-8 text-violet-400" />
               <div>
                 <h4 className="font-semibold">Free Shipping</h4>
-                <p className="text-sm text-gray-400">On orders over $1000</p>
+                <p className="text-sm text-gray-400">On orders over ₹75,000</p>
               </div>
             </div>
             <div className="flex items-center justify-center md:justify-end gap-3">

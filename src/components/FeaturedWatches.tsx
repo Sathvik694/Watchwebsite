@@ -6,8 +6,8 @@ const watches = [
     id: 1,
     name: "Royal Heritage",
     brand: "TimeVault",
-    price: 2999,
-    originalPrice: 3499,
+    price: 249999,
+    originalPrice: 299999,
     rating: 4.9,
     reviews: 128,
     image: "https://images.pexels.com/photos/277390/pexels-photo-277390.jpeg?auto=compress&cs=tinysrgb&w=400",
@@ -17,7 +17,7 @@ const watches = [
     id: 2,
     name: "Urban Classic",
     brand: "Metropolitan",
-    price: 1899,
+    price: 159999,
     rating: 4.8,
     reviews: 96,
     image: "https://images.pexels.com/photos/1697214/pexels-photo-1697214.jpeg?auto=compress&cs=tinysrgb&w=400",
@@ -27,7 +27,7 @@ const watches = [
     id: 3,
     name: "Sport Elite",
     brand: "ActiveTime",
-    price: 1599,
+    price: 134999,
     rating: 4.7,
     reviews: 203,
     image: "https://images.pexels.com/photos/1034063/pexels-photo-1034063.jpeg?auto=compress&cs=tinysrgb&w=400",
@@ -37,8 +37,8 @@ const watches = [
     id: 4,
     name: "Luxury Crown",
     brand: "Premium",
-    price: 4299,
-    originalPrice: 4999,
+    price: 359999,
+    originalPrice: 419999,
     rating: 5.0,
     reviews: 45,
     image: "https://images.pexels.com/photos/125779/pexels-photo-125779.jpeg?auto=compress&cs=tinysrgb&w=400",
@@ -109,14 +109,14 @@ const FeaturedWatches = () => {
                 
                 <div className="flex items-center justify-between">
                   <div className="flex items-center gap-2">
-                    <span className="text-xl font-bold text-gray-900">${watch.price.toLocaleString()}</span>
+                    <span className="text-xl font-bold text-gray-900">₹{watch.price.toLocaleString('en-IN')}</span>
                     {watch.originalPrice && (
-                      <span className="text-sm text-gray-500 line-through">${watch.originalPrice.toLocaleString()}</span>
+                      <span className="text-sm text-gray-500 line-through">₹{watch.originalPrice.toLocaleString('en-IN')}</span>
                     )}
                   </div>
                   {watch.originalPrice && (
                     <span className="text-sm text-green-600 font-medium">
-                      Save ${(watch.originalPrice - watch.price).toLocaleString()}
+                      Save ₹{(watch.originalPrice - watch.price).toLocaleString('en-IN')}
                     </span>
                   )}
                 </div>
