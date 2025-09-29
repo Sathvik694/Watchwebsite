@@ -1,8 +1,7 @@
 import React from 'react';
 import Header from './components/Header';
 import Hero from './components/Hero';
-import FeaturedWatches from './components/FeaturedWatches';
-import Categories from './components/Categories';
+import ProductShowcase from './components/ProductShowcase';
 import Newsletter from './components/Newsletter';
 import Footer from './components/Footer';
 import Chatbot from './components/Chatbot';
@@ -13,8 +12,7 @@ function App() {
       <Header />
       <main>
         <Hero />
-        <FeaturedWatches />
-        <Categories />
+        <ProductShowcase />
         <Newsletter />
       </main>
       <Footer />
