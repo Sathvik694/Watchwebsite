@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Filter, Scale, Heart, Grid, List } from 'lucide-react';
+import { Filter, Scale, Heart, Grid2x2 as Grid, List } from 'lucide-react';
 import ProductGallery from './ProductGallery';
 import VirtualTryOn from './VirtualTryOn';
 import SmartFilters from './SmartFilters';
