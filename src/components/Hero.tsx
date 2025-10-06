@@ -24,7 +24,7 @@ const Hero = () => {
                 Shop Collection
                 <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform" />
               </button>
-              <button className="border-2 border-violet-500 text-violet-400 hover:bg-violet-500 hover:text-white px-8 py-4 rounded-full font-semibold transition-all duration-300 flex items-center gap-2">
+              <button className="border-2 border-white text-white hover:bg-white hover:text-black px-8 py-4 rounded-full font-semibold transition-all duration-300 flex items-center gap-2">
                 <Play className="h-5 w-5" />
                 Watch Story
               </button>
